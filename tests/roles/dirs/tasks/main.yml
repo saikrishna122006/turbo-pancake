@@ -2,5 +2,5 @@
 # tasks file for dirs
 
  - name: Creating multiple directories under root
-   file: dest=/tmp/{{ item }} state=directory
+   file: dest=/root/{{ item }} state=directory
    with_sequence: start=1 end=3
